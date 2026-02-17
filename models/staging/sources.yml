@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: raw_data
+    description: "Raw data sources"
+    database: academic-pillar-484707-q8
+    schema: nytaxi
+    tables:
+      - name: yellow_tripdata
+      - name: green_tripdata
+      - name: fhv_tripdata_2019
